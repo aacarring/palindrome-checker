@@ -1,0 +1,1 @@
+Using HTML, CSS, and JS, I made a little palindrome checking app. Type into the input field and click the button to check if your input is a palindrome or not.
