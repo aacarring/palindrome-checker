@@ -13,8 +13,10 @@ body {
 }
 .main-section {
     position: absolute;
+    max-width: 100%;
     width: 40vw;
-    height: 80vh;
+    min-height: 60vh;
+    max-height: 100%;
     top: 50%;
     transform: translateY(-50%);
     background: rgba(255,245,238, 0.5);
@@ -23,7 +25,20 @@ body {
 .main-section h1 {
     margin-top: 10vh;
     margin-bottom: 3vh;
+    max-width: 100%;
 }
 section {
-    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    transform: translateY(-50%);
+}
+section input {
+    max-width: 100%;
+    width: 200px;
+    margin: 10px;
 }
