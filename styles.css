@@ -26,6 +26,8 @@ body {
     margin-top: 10vh;
     margin-bottom: 3vh;
     max-width: 100%;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
 }
 section {
     display: flex;
@@ -41,4 +43,7 @@ section input {
     max-width: 100%;
     width: 200px;
     margin: 10px;
+}
+section button:hover {
+    cursor: pointer;
 }
